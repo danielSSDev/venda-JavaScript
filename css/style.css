@@ -1,0 +1,33 @@
+.header {
+    background-color: #dedede;
+    height: 35px;
+}
+
+.header img{
+    position: relative;
+    padding: 5%;
+}
+
+.nav-header {
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+.nav-header p {
+    margin-left: 20px;
+}
+
+.row {
+    position: absolute;
+    background-color: #00000042;
+    width: 100%;
+    height: 35%;
+
+}
+
+.input-pesquisa-header{
+    align-items: center !important;
+    width: 40% !important;
+    left: 30%;
+}
