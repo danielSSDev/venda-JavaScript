@@ -44,6 +44,11 @@
     background-color: #0000000f;
 } 
 
+.card img{
+    height: 200px;
+    border: 1px solid black;
+}
+
 .conteudo-prod{
     display: flex;
     position: relative;
@@ -51,4 +56,41 @@
 
 .conteudo-prod .card{
     margin-right: 25px;
+}
+
+.card-body{
+    border: 1px solid black;
+}
+
+.card-body p{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-mais-menos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.botao-mais-menos input{
+    width: 50px;
+    padding: 0;
+}
+
+.content-mais-menos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.botao-adicionar{
+    border: 1px solid #2757ff;
+    border-radius: 10px;
+    background-color: #2757ff;
+}
+
+.botao-adicionar p{
+    color: #fff;
 }
